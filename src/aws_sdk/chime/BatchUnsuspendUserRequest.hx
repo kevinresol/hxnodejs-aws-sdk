@@ -1,0 +1,12 @@
+package aws_sdk.chime;
+
+typedef BatchUnsuspendUserRequest = {
+	/**
+		The Amazon Chime account ID.
+	**/
+	var AccountId : String;
+	/**
+		The request containing the user IDs to unsuspend.
+	**/
+	var UserIdList : UserIdList;
+};

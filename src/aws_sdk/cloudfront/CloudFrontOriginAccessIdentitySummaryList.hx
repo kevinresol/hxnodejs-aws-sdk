@@ -1,0 +1,3 @@
+package aws_sdk.cloudfront;
+
+typedef CloudFrontOriginAccessIdentitySummaryList = Array<CloudFrontOriginAccessIdentitySummary>;

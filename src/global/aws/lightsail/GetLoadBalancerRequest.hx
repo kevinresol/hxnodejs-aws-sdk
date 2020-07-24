@@ -1,0 +1,8 @@
+package global.aws.lightsail;
+
+typedef GetLoadBalancerRequest = {
+	/**
+		The name of the load balancer.
+	**/
+	var loadBalancerName : String;
+};

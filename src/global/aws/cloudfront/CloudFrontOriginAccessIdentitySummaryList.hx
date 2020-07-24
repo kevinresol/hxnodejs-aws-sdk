@@ -1,0 +1,3 @@
+package global.aws.cloudfront;
+
+typedef CloudFrontOriginAccessIdentitySummaryList = Array<CloudFrontOriginAccessIdentitySummary>;

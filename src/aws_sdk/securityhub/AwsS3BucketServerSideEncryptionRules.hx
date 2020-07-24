@@ -1,0 +1,3 @@
+package aws_sdk.securityhub;
+
+typedef AwsS3BucketServerSideEncryptionRules = Array<AwsS3BucketServerSideEncryptionRule>;

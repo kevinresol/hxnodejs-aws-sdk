@@ -1,0 +1,3 @@
+package aws_sdk.webidentitycredentials;
+
+typedef WebIdentityCredentialsOptions = aws_sdk.sts.AssumeRoleWithWebIdentityRequest;

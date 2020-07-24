@@ -1,0 +1,3 @@
+package aws_sdk.cognitoidentitycredentials;
+
+typedef CognitoIdentityCredentialsInputs = ts.AnyOf4<aws_sdk.cognitoidentity.GetIdInput, aws_sdk.cognitoidentity.GetCredentialsForIdentityInput, aws_sdk.cognitoidentity.GetOpenIdTokenInput, aws_sdk.sts.AssumeRoleWithWebIdentityRequest>;

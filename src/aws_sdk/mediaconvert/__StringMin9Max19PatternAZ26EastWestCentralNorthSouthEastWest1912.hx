@@ -1,0 +1,3 @@
+package aws_sdk.mediaconvert;
+
+typedef __StringMin9Max19PatternAZ26EastWestCentralNorthSouthEastWest1912 = String;

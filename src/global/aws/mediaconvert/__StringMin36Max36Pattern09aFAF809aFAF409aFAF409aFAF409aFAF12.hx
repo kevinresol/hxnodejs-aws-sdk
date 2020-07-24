@@ -1,0 +1,3 @@
+package global.aws.mediaconvert;
+
+typedef __StringMin36Max36Pattern09aFAF809aFAF409aFAF409aFAF409aFAF12 = String;

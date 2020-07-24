@@ -1,0 +1,9 @@
+package aws_sdk.accessanalyzer;
+
+typedef CreateAnalyzerResponse = {
+	/**
+		The ARN of the analyzer that was created by the request.
+	**/
+	@:optional
+	var arn : String;
+};

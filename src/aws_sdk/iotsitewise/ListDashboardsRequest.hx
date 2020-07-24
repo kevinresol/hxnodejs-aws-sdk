@@ -1,0 +1,18 @@
+package aws_sdk.iotsitewise;
+
+typedef ListDashboardsRequest = {
+	/**
+		The ID of the project.
+	**/
+	var projectId : String;
+	/**
+		The token to be used for the next set of paginated results.
+	**/
+	@:optional
+	var nextToken : String;
+	/**
+		The maximum number of results to be returned per paginated request.
+	**/
+	@:optional
+	var maxResults : Float;
+};

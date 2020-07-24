@@ -1,0 +1,3 @@
+package aws_sdk.dynamodb;
+
+typedef GlobalSecondaryIndexAutoScalingUpdateList = Array<GlobalSecondaryIndexAutoScalingUpdate>;

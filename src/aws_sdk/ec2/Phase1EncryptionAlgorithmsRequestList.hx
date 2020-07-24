@@ -1,0 +1,3 @@
+package aws_sdk.ec2;
+
+typedef Phase1EncryptionAlgorithmsRequestList = Array<Phase1EncryptionAlgorithmsRequestListValue>;

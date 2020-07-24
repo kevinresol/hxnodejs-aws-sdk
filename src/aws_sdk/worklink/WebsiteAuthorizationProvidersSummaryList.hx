@@ -1,0 +1,3 @@
+package aws_sdk.worklink;
+
+typedef WebsiteAuthorizationProvidersSummaryList = Array<WebsiteAuthorizationProviderSummary>;

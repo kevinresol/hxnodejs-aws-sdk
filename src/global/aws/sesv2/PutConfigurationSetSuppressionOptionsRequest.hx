@@ -1,0 +1,13 @@
+package global.aws.sesv2;
+
+typedef PutConfigurationSetSuppressionOptionsRequest = {
+	/**
+		The name of the configuration set that you want to change the suppression list preferences for.
+	**/
+	var ConfigurationSetName : String;
+	/**
+		A list that contains the reasons that email addresses are automatically added to the suppression list for your account. This list can contain any or all of the following:    COMPLAINT – Amazon SES adds an email address to the suppression list for your account when a message sent to that address results in a complaint.    BOUNCE – Amazon SES adds an email address to the suppression list for your account when a message sent to that address results in a hard bounce.
+	**/
+	@:optional
+	var SuppressedReasons : SuppressionListReasons;
+};

@@ -1,0 +1,8 @@
+package global.aws.cloudfront;
+
+typedef CreateDistributionRequest = {
+	/**
+		The distribution's configuration information.
+	**/
+	var DistributionConfig : DistributionConfig;
+};

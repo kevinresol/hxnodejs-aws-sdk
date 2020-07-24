@@ -1,0 +1,16 @@
+package aws_sdk;
+
+@:jsRequire("aws-sdk", "SageMakerRuntime") extern class SageMakerRuntime extends Service {
+	/**
+		Constructs a service object. This object has one method for each API operation.
+	**/
+	function new(?options:aws_sdk.sagemakerruntime.ClientConfiguration);
+	/**
+		After you deploy a model into production using Amazon SageMaker hosting services, your client applications use this API to get inferences from the model hosted at the specified endpoint.  For an overview of Amazon SageMaker, see How It Works.  Amazon SageMaker strips all POST headers except those supported by the API. Amazon SageMaker might add additional headers. You should not rely on the behavior of headers outside those enumerated in the request syntax.  Calls to InvokeEndpoint are authenticated by using AWS Signature Version 4. For information, see Authenticating Requests (AWS Signature Version 4) in the Amazon S3 API Reference. A customer's model containers must respond to requests within 60 seconds. The model itself can have a maximum processing time of 60 seconds before responding to the /invocations. If your model is going to take 50-60 seconds of processing time, the SDK socket timeout should be set to be 70 seconds.  Endpoints are scoped to an individual account, and are not public. The URL does not contain the account ID, but Amazon SageMaker determines the account ID from the authentication token that is supplied by the caller.
+		
+		After you deploy a model into production using Amazon SageMaker hosting services, your client applications use this API to get inferences from the model hosted at the specified endpoint.  For an overview of Amazon SageMaker, see How It Works.  Amazon SageMaker strips all POST headers except those supported by the API. Amazon SageMaker might add additional headers. You should not rely on the behavior of headers outside those enumerated in the request syntax.  Calls to InvokeEndpoint are authenticated by using AWS Signature Version 4. For information, see Authenticating Requests (AWS Signature Version 4) in the Amazon S3 API Reference. A customer's model containers must respond to requests within 60 seconds. The model itself can have a maximum processing time of 60 seconds before responding to the /invocations. If your model is going to take 50-60 seconds of processing time, the SDK socket timeout should be set to be 70 seconds.  Endpoints are scoped to an individual account, and are not public. The URL does not contain the account ID, but Amazon SageMaker determines the account ID from the authentication token that is supplied by the caller.
+	**/
+	@:overload(function(?callback:(err:AWSError, data:aws_sdk.sagemakerruntime.InvokeEndpointOutput) -> Void):Request<aws_sdk.sagemakerruntime.InvokeEndpointOutput, AWSError> { })
+	function invokeEndpoint(params:aws_sdk.sagemakerruntime.InvokeEndpointInput, ?callback:(err:AWSError, data:aws_sdk.sagemakerruntime.InvokeEndpointOutput) -> Void):Request<aws_sdk.sagemakerruntime.InvokeEndpointOutput, AWSError>;
+	static var prototype : SageMakerRuntime;
+}

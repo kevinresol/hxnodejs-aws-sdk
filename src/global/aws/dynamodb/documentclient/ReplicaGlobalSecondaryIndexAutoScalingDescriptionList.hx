@@ -1,0 +1,3 @@
+package global.aws.dynamodb.documentclient;
+
+typedef ReplicaGlobalSecondaryIndexAutoScalingDescriptionList = Array<ReplicaGlobalSecondaryIndexAutoScalingDescription>;

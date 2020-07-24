@@ -1,0 +1,8 @@
+package aws_sdk.rekognition;
+
+typedef DescribeStreamProcessorRequest = {
+	/**
+		Name of the stream processor for which you want information.
+	**/
+	var Name : String;
+};

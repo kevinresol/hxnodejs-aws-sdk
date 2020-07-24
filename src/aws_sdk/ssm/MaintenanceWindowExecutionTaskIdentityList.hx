@@ -1,0 +1,3 @@
+package aws_sdk.ssm;
+
+typedef MaintenanceWindowExecutionTaskIdentityList = Array<MaintenanceWindowExecutionTaskIdentity>;

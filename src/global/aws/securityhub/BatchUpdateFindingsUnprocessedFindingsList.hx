@@ -1,0 +1,3 @@
+package global.aws.securityhub;
+
+typedef BatchUpdateFindingsUnprocessedFindingsList = Array<BatchUpdateFindingsUnprocessedFinding>;

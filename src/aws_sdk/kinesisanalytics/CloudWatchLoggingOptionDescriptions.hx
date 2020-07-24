@@ -1,0 +1,3 @@
+package aws_sdk.kinesisanalytics;
+
+typedef CloudWatchLoggingOptionDescriptions = Array<CloudWatchLoggingOptionDescription>;

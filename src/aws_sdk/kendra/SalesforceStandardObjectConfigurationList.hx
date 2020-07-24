@@ -1,0 +1,3 @@
+package aws_sdk.kendra;
+
+typedef SalesforceStandardObjectConfigurationList = Array<SalesforceStandardObjectConfiguration>;

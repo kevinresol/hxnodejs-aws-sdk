@@ -1,0 +1,3 @@
+package aws_sdk.ec2;
+
+typedef LocalGatewayRouteTableVirtualInterfaceGroupAssociationSet = Array<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>;

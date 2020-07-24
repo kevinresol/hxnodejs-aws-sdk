@@ -1,0 +1,16 @@
+{
+	"name": "hxnodejs-aws-sdk",
+	"classPath": "src",
+	"dependencies": {},
+	"url": "https://github.com/kevinresol/hxnodejs-aws-sdk",
+	"contributors": [
+		"kevinresol"
+	],
+	"version": "2.719.0",
+	"releasenote": "Update aws-sdk version",
+	"tags": [
+		"aws-sdk",
+		"aws"
+	],
+	"license": "MIT"
+}

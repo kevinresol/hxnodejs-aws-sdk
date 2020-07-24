@@ -1,0 +1,3 @@
+package aws_sdk.securityhub;
+
+typedef AwsEc2NetworkInterfaceSecurityGroupList = Array<AwsEc2NetworkInterfaceSecurityGroup>;

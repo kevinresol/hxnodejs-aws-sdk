@@ -1,0 +1,3 @@
+package global.aws.mediaconvert;
+
+typedef __StringMin9Max19PatternAZ26EastWestCentralNorthSouthEastWest1912 = String;

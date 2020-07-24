@@ -1,0 +1,9 @@
+package global.aws.sagemaker;
+
+typedef CreateNotebookInstanceOutput = {
+	/**
+		The Amazon Resource Name (ARN) of the notebook instance.
+	**/
+	@:optional
+	var NotebookInstanceArn : String;
+};

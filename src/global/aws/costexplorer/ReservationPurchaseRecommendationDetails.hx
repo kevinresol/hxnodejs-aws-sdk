@@ -1,0 +1,3 @@
+package global.aws.costexplorer;
+
+typedef ReservationPurchaseRecommendationDetails = Array<ReservationPurchaseRecommendationDetail>;

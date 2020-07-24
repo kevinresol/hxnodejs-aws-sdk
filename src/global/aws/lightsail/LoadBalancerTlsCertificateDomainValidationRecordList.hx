@@ -1,0 +1,3 @@
+package global.aws.lightsail;
+
+typedef LoadBalancerTlsCertificateDomainValidationRecordList = Array<LoadBalancerTlsCertificateDomainValidationRecord>;

@@ -1,0 +1,28 @@
+package aws_sdk.ec2;
+
+typedef DescribeFleetInstancesRequest = {
+	/**
+		Checks whether you have the required permissions for the action, without actually making the request, and provides an error response. If you have the required permissions, the error response is DryRunOperation. Otherwise, it is UnauthorizedOperation.
+	**/
+	@:optional
+	var DryRun : Bool;
+	/**
+		The maximum number of results to return in a single call. Specify a value between 1 and 1000. The default value is 1000. To retrieve the remaining results, make another call with the returned NextToken value.
+	**/
+	@:optional
+	var MaxResults : Float;
+	/**
+		The token for the next set of results.
+	**/
+	@:optional
+	var NextToken : String;
+	/**
+		The ID of the EC2 Fleet.
+	**/
+	var FleetId : String;
+	/**
+		The filters.    instance-type - The instance type.
+	**/
+	@:optional
+	var Filters : FilterList;
+};

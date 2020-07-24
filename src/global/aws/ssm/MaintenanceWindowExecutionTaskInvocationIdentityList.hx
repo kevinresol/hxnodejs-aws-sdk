@@ -1,0 +1,3 @@
+package global.aws.ssm;
+
+typedef MaintenanceWindowExecutionTaskInvocationIdentityList = Array<MaintenanceWindowExecutionTaskInvocationIdentity>;

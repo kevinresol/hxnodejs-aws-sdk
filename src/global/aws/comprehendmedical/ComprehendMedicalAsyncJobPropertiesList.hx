@@ -1,0 +1,3 @@
+package global.aws.comprehendmedical;
+
+typedef ComprehendMedicalAsyncJobPropertiesList = Array<ComprehendMedicalAsyncJobProperties>;

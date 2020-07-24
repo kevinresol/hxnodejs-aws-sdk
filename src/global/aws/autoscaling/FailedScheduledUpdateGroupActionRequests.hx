@@ -1,0 +1,3 @@
+package global.aws.autoscaling;
+
+typedef FailedScheduledUpdateGroupActionRequests = Array<FailedScheduledUpdateGroupActionRequest>;

@@ -1,0 +1,1 @@
+yarn dts2hx aws-sdk -o src --noLibWrap --tsconfig ./tsconfig.json

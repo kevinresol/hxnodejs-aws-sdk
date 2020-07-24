@@ -1,0 +1,3 @@
+package aws_sdk.health;
+
+typedef DescribeAffectedEntitiesForOrganizationFailedSet = Array<OrganizationAffectedEntitiesErrorItem>;
