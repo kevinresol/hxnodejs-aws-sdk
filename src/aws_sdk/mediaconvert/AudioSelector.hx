@@ -12,6 +12,11 @@ typedef AudioSelector = {
 	@:optional
 	var DefaultSelection : String;
 	/**
+		Specifies audio data from an external file source.
+	**/
+	@:optional
+	var ExternalAudioFileInput : String;
+	/**
 		Selects a specific language code from within an audio source.
 	**/
 	@:optional
