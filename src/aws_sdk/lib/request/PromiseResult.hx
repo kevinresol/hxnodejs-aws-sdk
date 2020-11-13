@@ -1,3 +1,3 @@
 package aws_sdk.lib.request;
 
-typedef PromiseResult<D, E> = Dynamic;
+typedef PromiseResult<D, E> = D;
