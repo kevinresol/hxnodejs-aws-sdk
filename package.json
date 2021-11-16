@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "@types/node": "^14.0.25",
-    "aws-sdk": "^2.719.0",
+    "aws-sdk": "^2.814.0",
     "dts2hx": "^0.13.3"
   }
 }
